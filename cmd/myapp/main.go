@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/i4erkasov/hookah-mate/backend/cmd/cli"
+	"github.com/i4erkasov/go-ddd-cqrs/cmd/myapp/cli"
 )
 
 func main() {

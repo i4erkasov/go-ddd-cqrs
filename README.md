@@ -67,7 +67,3 @@ The layer that facilitates communication between the application layer and the e
 ### `pkg`
 General packages for the entire application, e.g., the logging service.
 
-## Getting Started
-
-(Here you can add instructions on how to install, configure, and run your project.)
-

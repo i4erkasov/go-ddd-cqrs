@@ -28,6 +28,10 @@ to quickly create a Cobra application.`,
 	},
 }
 
+func Execute() error {
+	return cmd.Execute()
+}
+
 func init() {
 	cmd.PersistentFlags().StringVarP(
 		&config, "config", "c", "config.yml",
