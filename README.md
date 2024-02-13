@@ -1,7 +1,7 @@
 
 # Go DDD CQRS layout
 
-This is a Go application template utilizing Domain-Driven Design (DDD) and Command Query Responsibility Segregation (CQRS) principles with the Echo framework.
+This is a Go application template utilizing Domain-Driven Design (DDD) and Command Query Responsibility Segregation (CQRS) principles.
 
 ## Project Structure
 
