@@ -27,10 +27,10 @@ This is a Go application template utilizing Domain-Driven Design (DDD) and Comma
 │   ├── genmocks.go             # Mock generation for testing, facilitating unit and integration testing.
 │   ├── infrastructure          # Infrastructure layer: frameworks, drivers, and tools for technical capabilities.
 │   │   ├── api                 # API interfaces, particularly HTTP for web interaction.
-│   │   │   └── http            # HTTP-specific implementations: servers, handlers, middleware.
-│   │   │       ├── handler     # HTTP handlers, processing incoming HTTP requests.
-│   │   │       ├── middleware  # HTTP middleware, intercepting requests for cross-cutting concerns like logging, authentication.
-│   │   │       └── validator   # HTTP request validation, ensuring requests meet the expected format.
+│   │   │   └── rest            # REST-specific implementations: servers, handlers, middleware.
+│   │   │       ├── handler     # REST handlers, processing incoming HTTP requests.
+│   │   │       ├── middleware  # REST middleware, intercepting requests for cross-cutting concerns like logging, authentication.
+│   │   │       └── validator   # REST request validation, ensuring requests meet the expected format.
 │   │   ├── decorator           # Decorators for enhancing or altering behavior (e.g., logging, metrics).
 │   │   │   ├── decorator.go    # Base decorators, potentially for cross-cutting concerns.
 │   │   │   └── logging.go      # Logging decorator, adding logging capabilities to operations.
