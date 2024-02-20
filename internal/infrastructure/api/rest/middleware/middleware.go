@@ -1,12 +1,7 @@
 package middleware
 
-type HttpMiddleware struct {
-}
+type Middleware struct{}
 
-func NewHttpMiddleware(opts ...func(*HttpMiddleware)) *HttpMiddleware {
-	m := &HttpMiddleware{}
-	for _, opt := range opts {
-		opt(m)
-	}
-	return m
+func New() *Middleware {
+	return &Middleware{}
 }

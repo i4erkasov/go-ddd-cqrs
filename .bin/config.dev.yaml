@@ -1,0 +1,10 @@
+app:
+  environment: "development"
+  api:
+    rest:
+      host: "127.0.0.1"
+      port: "8088"
+      setting:
+        debug: true
+        hide_banner: false
+        hide_port: false
